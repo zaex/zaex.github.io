@@ -1,13 +1,8 @@
 
 @font-face {
     font-family: Ogg;
-    src: url("..fonts/Ogg-Roman.otf") format("opentype"),
-         url("..fonts/Ogg-Italic.otf") format("opentype");
-}
-
-@font-face {
-    font-family: ogg;
-    src: ;
+    src: url("../fonts/Ogg-Roman.otf") format("opentype"),
+         url("../fonts/Ogg-Italic.otf") format("opentype");
 }
 
 body, html {
@@ -23,8 +18,7 @@ body, html {
     position: relative;
     color: white;
     
-    font-family: "Ogg";
-    font-style: normal;
+    font-family: "Ogg", verdana, helvetica, sans-serif; 
 
     /*font-family: "Courier New", Courier, monospace;*/
 }
