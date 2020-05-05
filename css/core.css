@@ -18,24 +18,14 @@ html {
     background-size: cover;
 }
 
-iframe, .fb-page {
+
+iframe {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-/* .bgimg { */
-/*     height: 100%;  */
-/*     width: 100% */
-/*     background-position: center; */
-/*     position: absolute; */
-/*     color: white; */
-    
-/*     font-family: "Ogg", verdana, helvetica, sans-serif;  */
-
-/*     /\*font-family: "Courier New", Courier, monospace;*\/ */
-/* } */
 
 /* Position text in the top-left corner */
 .topleft {
@@ -57,28 +47,6 @@ iframe, .fb-page {
     font-family: "Ogg", verdana, helvetica, sans-serif;
 }
 
-
-.banner {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 250px;
-    height: 15%;
-    background-color: #959595;
-    opacity: 0.5;
-}
-
-
-/* Position text in the middle */
-.middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 15px;
-}
 
 /* Style the <hr> element */
 hr {
