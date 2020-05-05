@@ -7,36 +7,54 @@
 
 body, html {
     height: 100%;
+    overflow: hidden; /* Hide scrollbars */
 }
 
-
-.bgimg {
-    background-image: url("../images/bg.jpg");
-    height: 100%; 
-    background-position: center;
+html {
+    background: url("../images/bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    position: relative;
-    color: white;
-    
-    font-family: "Ogg", verdana, helvetica, sans-serif; 
-
-    /*font-family: "Courier New", Courier, monospace;*/
 }
+
+iframe, .fb-page {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .bgimg { */
+/*     height: 100%;  */
+/*     width: 100% */
+/*     background-position: center; */
+/*     position: absolute; */
+/*     color: white; */
+    
+/*     font-family: "Ogg", verdana, helvetica, sans-serif;  */
+
+/*     /\*font-family: "Courier New", Courier, monospace;*\/ */
+/* } */
 
 /* Position text in the top-left corner */
 .topleft {
     font-size: 30px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 16px;
+    color: white;
+    font-family: "Ogg", verdana, helvetica, sans-serif;
 }
 
 /* Position text in the bottom-left corner */
 .bottomleft {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 16px;
     font-size: 20px;
+    color: white;
+    font-family: "Ogg", verdana, helvetica, sans-serif;
 }
 
 
