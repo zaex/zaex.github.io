@@ -18,12 +18,28 @@ html {
     background-size: cover;
 }
 
-
-iframe {
+.banner {
+    padding: 10px;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 250px;
+    height: 150px;
+    background-color: #959595;
+    opacity: 0.5;
+}
+
+/* Position text in the middle */
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-family: "Ogg", verdana, helvetica, sans-serif;
 }
 
 
@@ -47,9 +63,30 @@ iframe {
     font-family: "Ogg", verdana, helvetica, sans-serif;
 }
 
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    /* background: #3B5998; */
+    background: #333;
+    color: white;
+}
+
+h1 {
+    margin: 0px;
+}
 
 /* Style the <hr> element */
 hr {
-    margin: auto;
-    width: 40%;
+    margin: 0px 20px 25px 20px;
 }
